@@ -1,0 +1,27 @@
+Exercicio 1
+
+PS C:\Users\ademi\OneDrive\Área de Trabalho\Python\TP2PB> $env:OMP_NUM_THREADS=1
+>> .\programa_pi
+>>
+>> $env:OMP_NUM_THREADS=2
+>> .\programa_pi
+>>
+>> $env:OMP_NUM_THREADS=4
+>> .\programa_pi
+Valor de PI: 3.141592653590426
+Tempo de execucao: 0.224000 segundos
+Valor de PI: 3.141592653589910
+Tempo de execucao: 0.122000 segundos
+Valor de PI: 3.141592653589683
+Tempo de execucao: 0.074000 segundos
+
+
+exercicio 9
+
+PS C:\Users\ademi\OneDrive\Área de Trabalho\Python\TP2PB> set OMP_NUM_THREADS=1
+>> .\matriz
+>>
+>> set OMP_NUM_THREADS=4
+>> .\matriz
+Tempo: 0.002000
+Tempo: 0.002000
